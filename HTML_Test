@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    
+    body {
+        width: 800px;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    
+    <header> 
+        <h1>Site logo</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/java/">Home</a>
+                </li>
+                <li>
+                    <a href="https://html.com/">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="file:///F:/Java%20Script/Tutorials/Gist/Seminar8/index1.html">Add Person</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="F:\Java Script\Tutorials\Gist\Seminar1\download.jpg" alt="" width="100%" height="auto">
+    </header>
+        
+    <hr/>
+        
+    <main>
+        <section>
+            <h1>Some awesome title</h1>
+            <p>Rem amet et quia ipsa illum illum sit. Ullam sint cum dolor dolor tempora voluptate sit sit. Excepturi earum at ut quod et enim. Sequi natus quidem aut suscipit possimus enim maiores et. Eum expedita quia ipsam in consequatur sed. Explicabo et enim aspernatur et et et at.</p>        
+        </section>
+            
+        <hr/>
+            
+        <section>
+            <h1>Post section</h1>
+            <article>
+                <h3>Post title #1</h3>
+                <p>Rem amet et quia ipsa illum illum sit. Ullam sint cum dolor dolor tempora voluptate sit sit. Excepturi earum at ut quod et enim. Sequi natus quidem aut suscipit possimus enim maiores et. Eum expedita quia ipsam in consequatur sed. Explicabo et enim aspernatur et et et at.</p>
+                <a href="#">Read more</a>
+            </article>
+
+            <article>
+                <h3>Post title #2</h3>
+                <p>Rem amet et quia ipsa illum illum sit. Ullam sint cum dolor dolor tempora voluptate sit sit. Excepturi earum at ut quod et enim. Sequi natus quidem aut suscipit possimus enim maiores et. Eum expedita quia ipsam in consequatur sed. Explicabo et enim aspernatur et et et at.</p>
+                <a href="#">Read more</a>
+            </article>
+
+            <article>
+                <h3>Post title #3</h3>
+                <p>Rem amet et quia ipsa illum illum sit. Ullam sint cum dolor dolor tempora voluptate sit sit. Excepturi earum at ut quod et enim. Sequi natus quidem aut suscipit possimus enim maiores et. Eum expedita quia ipsam in consequatur sed. Explicabo et enim aspernatur et et et at.</p>
+                <a href="#">Read more</a>
+            </article>    
+        </section>
+        
+        <hr />
+
+        <section>
+           <h1>Add person</h1>
+
+            <form>
+            
+                <input  id="name-p" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Full name" 
+                        required>
+                <br>
+                <input  id="email" 
+                        class="input" 
+                        type="email" 
+                        placeholder="Email" 
+                        required>
+                        <br>
+
+                <input  id="gender" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Gender" 
+                        required>
+                        <br>
+                
+                <textarea id="bio" 
+                        class="input" 
+                        type="text" 
+                        cols="30" 
+                        rows="10" 
+                        placeholder="Bio"></textarea> 
+                        <br>
+                
+                <button id="add" class="btn">Add</button>
+                <button id="clear" class="btn red">Clear</button>
+            
+            </form>
+        </section>
+
+         <hr />
+
+        <section>
+            <h2>Contact me</h2>
+            <form>
+                <label for="name">Your name</label>
+                <input type="text" name="name">
+                
+                <br/>
+                
+                <label for="message">Your message</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                
+                <br/>
+
+                <button type="submit">Send</button> 
+            </form>
+        </section>
+    </main>        
+    
+    <hr />
+    <footer>
+        <p>&copy; My Index Page - 2018</p>    
+    </footer>
+</body>
+
+</html>
+ To join this conversation on GitHub. Already have an account? Sign in to comment
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
